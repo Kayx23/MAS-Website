@@ -1,0 +1,153 @@
+/* Global Style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;       /* do not overflow */
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+  }
+  li,
+  button,
+  label,
+  input,
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  h4,
+  h5 {
+    font-size: 1.5rem;
+  }
+
+
+/* Nav Bar */
+nav {
+    height: 9vh;
+    display: flex;
+    width: 95%;     /* acts as the margin */
+    margin: auto;   /* centers it */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;      /* flex - horizontal centering */
+    justify-content: center;  /* flex - vertical centering */
+}
+nav img {
+    width: 100px;
+    object-fit: contain;
+}
+nav div {
+    flex-grow: 2; /* to takes up the middle space */
+}
+nav ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+nav li {
+    list-style-type: none; /* remove bullets */
+}
+nav a {
+    color: black;
+    text-decoration: none; /* gets rid of hyperlink format */
+    vertical-align: middle;
+}
+
+.main-head {
+  background:white;
+  color: black;
+}
+
+/* hero */
+.hero {
+    background: url(./image/HH.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;   /* centering MAS */
+    justify-content: center;
+}
+.hero h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+/* Who are we */
+.who-are-we {
+    background: rgb(121, 0, 60);   /* McMaster Maroon */
+    height: 25rem;
+    color: white;                  /* text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.who-are-we h2 {
+    margin-bottom: 3%;
+}
+.who-are-we p {
+    text-align:justify;
+    text-align-last: center;  /* center the last line */
+}
+
+/* resources */
+.resources {
+    background: rgb(240, 239, 239);
+}
+
+.resources h2 {
+    text-align: center;
+    padding: 3rem;
+}
+
+.resources h4 {
+    padding-top: 2rem;
+    font-family: Arial;   /* for bolding */
+    font-size: 1.6rem;
+}
+
+.resources p {
+    padding: 2rem 4rem;
+}
+
+.resources .card-container {
+    margin: auto;
+    height: 50vh;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 120rem;
+}
+
+.resources .card-container .card {
+    height: 80%;
+    width: 90%;
+    border: darkgray;
+    text-align: center;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    margin: 1rem 3rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.resources .card-container .card .card-icon {
+    height: 13%;
+    background:rgb(121, 0, 60);
+}
