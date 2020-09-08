@@ -90,7 +90,7 @@ nav a {
 /* Who are we */
 .who-are-we {
     background: rgb(121, 0, 60);   /* McMaster Maroon */
-    height: 25rem;
+    height: 38rem;
     color: white;                  /* text color */
     display: flex;
     flex-direction: column;
@@ -98,6 +98,10 @@ nav a {
     justify-content: center;
     padding-left: 15%;
     padding-right: 15%;
+}
+.who-are-we img {
+    width: 18rem;
+    object-fit: contain;
 }
 .who-are-we h2 {
     margin-bottom: 3%;
