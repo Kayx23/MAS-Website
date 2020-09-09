@@ -155,3 +155,22 @@ nav a {
     height: 13%;
     background:rgb(121, 0, 60);
 }
+
+/* calendar & social media */
+.calendar-social-media {
+    display: flex;
+}
+
+#calendar {
+    flex:4;
+    max-width: 80%;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    padding: 5%;
+  }
+
+.calendar-social-media #social-media{
+    flex:1;
+    background: rgb(145, 17, 17);
+    padding: 5%;
+}
