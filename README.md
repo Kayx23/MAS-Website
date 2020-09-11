@@ -1,11 +1,13 @@
 # MAS-Website
-Creating a website template for the McMaster Actuarial Society (MAS)
+Creating a website for the McMaster Actuarial Society (MAS). 
 
 # Resources 
 * Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * Full Calendar: https://fullcalendar.io/
+* FB page plug-in: https://developers.facebook.com/docs/plugins/page-plugin/
 
 # To-do List
-- [ ] Fill out the social media section  
+- [ ] Update contact info in the footer
+- [ ] Inser social media icons in the footer: FB, Insta, LinkedIn
 - [ ] Meet the Team Page
-- [ ] Calendar Event: add real hyperlinkes
+- [ ] Calendar Event: update events and links
