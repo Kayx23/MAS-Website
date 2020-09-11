@@ -8,8 +8,11 @@ Creating a website for the McMaster Actuarial Society (MAS).
 * Ionicons: https://ionicons.com
 
 # To-do List
-- [ ] animation effect (sliding) jumping to a section
-- [ ] Incorporate a secontion for the latest news 
+- [ ] Mobile look is squeezed
+- [ ] Incorporate a section for the latest news (Bootstrap Carousel)
+- [ ] Make new page: FAQ -> What is an actuary, exam path etc.
+- [ ] Make new page: Meet the team
+- [ ] make the top menu sticky
 - [ ] Update email in the footer
-- [ ] Meet the Team Page
+- [ ] animation effect (sliding) jumping to a section
 - [ ] Calendar Event: update events and links
