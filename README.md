@@ -8,7 +8,8 @@ Creating a website for the McMaster Actuarial Society (MAS).
 * Ionicons: https://ionicons.com
 
 # To-do List
-- [ ] Update contact info in the footer
-- [ ] Inser social media icons in the footer: FB, Insta, LinkedIn
+- [ ] animation effect (sliding) jumping to a section
+- [ ] Incorporate a secontion for the latest news 
+- [ ] Update email in the footer
 - [ ] Meet the Team Page
 - [ ] Calendar Event: update events and links

@@ -85,7 +85,7 @@ nav a {
 .hero h1 {
     color: white;
     font-size: 5rem;
-    text-shadow: 4px 4px rgb(92, 106, 114);
+    text-shadow: 2px 2px 2px black;
 }
 
 /* Who are we */
@@ -113,26 +113,26 @@ nav a {
 }
 
 /* resources */
-.resources {
+#resources {
     background: rgb(240, 239, 239);
 }
 
-.resources h2 {
+#resources h2 {
     text-align: center;
     padding: 3rem;
 }
 
-.resources h4 {
+#resources h4 {
     padding-top: 2rem;
     font-family: Arial;   /* for bolding */
     font-size: 1.6rem;
 }
 
-.resources p {
+#resources p {
     padding: 2rem 4rem;
 }
 
-.resources .card-container {
+#resources .card-container {
     margin: auto;
     height: 50vh;
     width: 95%;
@@ -141,7 +141,7 @@ nav a {
     min-width: 120rem;
 }
 
-.resources .card-container .card {
+#resources .card-container .card {
     height: 80%;
     width: 90%;
     border: darkgray;
@@ -152,14 +152,14 @@ nav a {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
-.resources .card-container .card .card-icon {
+#resources .card-container .card .card-icon {
     height: 13%;
     background:rgb(121, 0, 60);
 }
 
 /* events */
 
-.events {
+#events {
     text-align: center;
     padding: 5rem;
 }
@@ -226,6 +226,11 @@ ion-icon {
     background: rgb(121, 0, 60);
     height: 6rem;
     color: white;
+    display: flex;
+    align-items: center;
+}
+.footer-maroon p {
+    padding-left: 7rem;
 }
 
 
