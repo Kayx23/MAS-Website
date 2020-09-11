@@ -85,6 +85,7 @@ nav a {
 .hero h1 {
     color: white;
     font-size: 5rem;
+    text-shadow: 4px 4px rgb(92, 106, 114);
 }
 
 /* Who are we */
@@ -183,7 +184,7 @@ nav a {
     justify-content: center;
 }
 
-/* footer */
+/* footer grey */
 
 .footer-yellow {
     background: rgb(255,192,72);
@@ -209,16 +210,22 @@ nav a {
     margin-top: 3.5rem;
 }
 
-.footer-maroon {
-    background: rgb(121, 0, 60);   /* McMaster Maroon */
-    height: 6rem;
-    color: white;                  /* text color */
+.social-media-icons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
+}
+
+ion-icon {
+    font-size: 2.5rem;
+    color: rgb(195, 195, 196);
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+/* footer maroon */
+.footer-maroon {
+    background: rgb(121, 0, 60);
+    height: 6rem;
+    color: white;
 }
 
 

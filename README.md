@@ -5,6 +5,7 @@ Creating a website for the McMaster Actuarial Society (MAS).
 * Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * Full Calendar: https://fullcalendar.io/
 * FB page plug-in: https://developers.facebook.com/docs/plugins/page-plugin/
+* Ionicons: https://ionicons.com
 
 # To-do List
 - [ ] Update contact info in the footer
