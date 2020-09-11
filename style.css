@@ -183,8 +183,42 @@ nav a {
     justify-content: center;
 }
 
-.calendar-social-media .fb-page{
-    
+/* footer */
+
+.footer-yellow {
+    background: rgb(255,192,72);
+    height: 1rem;
+}
+
+.footer-grey {
+    background: rgb(92, 106, 114);   /* McMaster Maroon */
+    height: 19rem;
+    color: white;                  /* text color */
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-grey img {
+    width: 40rem;
+    object-fit: contain;
+}
+
+.footer-grey #address, #contact-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+.footer-maroon {
+    background: rgb(121, 0, 60);   /* McMaster Maroon */
+    height: 6rem;
+    color: white;                  /* text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 
