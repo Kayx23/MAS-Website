@@ -156,21 +156,36 @@ nav a {
     background:rgb(121, 0, 60);
 }
 
-/* calendar & social media */
+/* events */
+
+.events {
+    text-align: center;
+    padding: 5rem;
+}
+
 .calendar-social-media {
     display: flex;
 }
 
 #calendar {
     flex:4;
-    max-width: 80%;
+    max-width: 70%;
     margin: 1.5rem auto;
     font-size: 1.5rem;
-    padding: 5%;
+    padding: 2%;
   }
 
 .calendar-social-media #social-media{
     flex:1;
-    background: rgb(145, 17, 17);
-    padding: 5%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.calendar-social-media .fb-page{
+    
+}
+
+
+/* 255,192,72 */ /* McMaster Yellow */
