@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     overflow: auto;       /* do not overflow */
 }
 
@@ -41,10 +40,10 @@ nav {
     display: flex;
     width: 95%;     /* acts as the margin */
     margin: auto;   /* centers it */
-    padding-top: 2rem;
-    padding-bottom: 2rem;
     align-items: center;      /* flex - horizontal centering */
     justify-content: center;  /* flex - vertical centering */
+    background-color: white;
+    z-index: 3;
 }
 nav img {
     width: 100px;
@@ -53,7 +52,7 @@ nav img {
 nav div {
     flex-grow: 2; /* to takes up the middle space */
 }
-nav ul {
+nav #main-list {
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
@@ -66,6 +65,52 @@ nav a {
     text-decoration: none; /* gets rid of hyperlink format */
     vertical-align: middle;
 }
+
+nav ion-icon {
+    margin: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    border-radius: 1.5rem;
+    display: none;
+}
+
+nav ion-icon:hover {
+    height: 80%;
+    background-color: lightgrey;
+}
+
+  @media screen and (max-width: 650px) {
+    .topnav li {
+        display: none;
+    }
+    nav ion-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav .topnav.responsive {
+        flex-direction: column;
+        position: absolute;
+        right:0;
+        top:6.7rem;
+        text-align: right;
+        padding: 1rem;
+        background-color: lightgrey;
+        border-radius: 0rem 0rem 1rem 1rem;
+        z-index: 3;
+    }
+    nav .topnav.responsive li {
+        display:block;
+        padding-right: 3rem;
+        padding-left: 1rem;
+    }
+    nav .topnav.responsive li:hover{
+        background-color: rgb(255,192,72);
+    }
+  }
 
 .main-head {
   background:white;
@@ -216,7 +261,7 @@ nav a {
 
 ion-icon {
     font-size: 2.5rem;
-    color: rgb(195, 195, 196);
+    color: rgb(65, 65, 66);
     margin-top: 0.5rem;
     margin-right: 0.5rem;
   }

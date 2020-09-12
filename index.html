@@ -13,7 +13,10 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
-    <!-- for the calendar -->
+    <!-- Navbar -->
+    <script defer src="./js/navbar.js"></script>
+
+    <!-- Full Calendar -->
     <link rel='stylesheet' href='https://unpkg.com/@fullcalendar/core@4.3.0/main.min.css'>
     <link rel='stylesheet' href='https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.css'>
     <link rel='stylesheet' href='https://unpkg.com/@fullcalendar/timegrid@4.3.0/main.min.css'>
@@ -22,7 +25,7 @@
     <script src='https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.js'></script>
     <script src='https://unpkg.com/@fullcalendar/timegrid@4.3.0/main.min.js'></script>
     <script src='https://unpkg.com/@fullcalendar/list@4.3.0/main.min.js'></script>
-    <script src="./script.js"></script>
+    <script src="./js/FullCalendar.js"></script>
 
     <!-- facebook page plug-in -->
     <script async defer crossorigin="anonymous"
@@ -30,7 +33,8 @@
         nonce="kP9Rxc1t"></script>
 
     <!-- Social Media Icon: 4.5.10 icons are more consistent than 5.1.2 -->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 
     <title>McMaster Actuarial Society | MAS </title>
 
@@ -44,13 +48,14 @@
                 <img src="./icons/mactuaries.png" alt="MAS-logo">
             </li>
             <div></div>
-            <ul>
+            <ul id="main-list">
                 <li><a href="/">Home</a></li>
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#">Meet the Team</a></li>
-                <li><a href="#">Join Us</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
+            <ion-icon name="menu" id="menu" onclick="ExpandMenu()"></ion-icon>
         </nav>
     </header>
 
@@ -133,7 +138,7 @@
         <div id="contact-us">
             <h4>Contact Us:</h4>
             <br>
-            <p>Email: dummyema@mcmaster.ca</p>
+            <p>Email: actuary@mcmaster.ca</p>
             <div class="social-media-icons">
                 <a href="https://www.facebook.com/McMasterActuarialSociety/">
                     <ion-icon name="logo-facebook"></ion-icon>
@@ -150,7 +155,7 @@
     </section>
 
     <section class="footer-maroon">
-        <p>© 2020 McMaster Actuarial Society. All Rights Reserved.</p>
+        <p>© 2020 McMaster Actuarial Society. All rights reserved.</p>
     </section>
 </body>
 
