@@ -36,40 +36,48 @@ h1 {
 
 /* Nav Bar */
 nav {
-    height: 9vh;
-    display: flex;
+    height: 6rem;
     width: 95%;     /* acts as the margin */
     margin: auto;   /* centers it */
-    align-items: center;      /* flex - horizontal centering */
-    justify-content: center;  /* flex - vertical centering */
     background-color: white;
-    z-index: 3;
+    overflow: visible;  /* for mobile look */
 }
-nav img {
-    width: 100px;
-    object-fit: contain;
-}
-nav div {
-    flex-grow: 2; /* to takes up the middle space */
-}
-nav #main-list {
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-evenly;
-}
+
 nav li {
     list-style-type: none; /* remove bullets */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.7rem;
+    vertical-align: middle;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;  /* item orders in reverse */
+}
+nav ul li {
+    display: inline-block;
+    padding: 1.3rem;
+    float: left;  /* reverse back to normal */
+}
+nav img {
+    position: absolute;
+    left: 40px;
+    top: 14px;
+    width: 100px;
+    object-fit: contain;
 }
 nav a {
     color: black;
     text-decoration: none; /* gets rid of hyperlink format */
-    vertical-align: middle;
 }
 
 nav ion-icon {
-    margin: 1rem;
+    float: right;
+    margin: 1.3rem;
     padding-top: 0.3rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
     padding-left: 1.8rem;
     padding-right: 1.8rem;
     border-radius: 1.5rem;
@@ -77,8 +85,7 @@ nav ion-icon {
 }
 
 nav ion-icon:hover {
-    height: 80%;
-    background-color: lightgrey;
+    background-color: rgb(255,192,72);
 }
 
   @media screen and (max-width: 650px) {
@@ -91,21 +98,30 @@ nav ion-icon:hover {
 }
 
 @media screen and (max-width: 650px) {
+    nav {
+        width: 100%;
+        max-width: 100%
+    }
+    nav ion-icon {
+        position: absolute; /* gets rid of hyperlink format */
+        right: 0;
+        top: 0;
+        
+    }
     nav .topnav.responsive {
-        flex-direction: column;
-        position: absolute;
-        right:0;
-        top:6.7rem;
-        text-align: right;
-        padding: 1rem;
         background-color: lightgrey;
-        border-radius: 0rem 0rem 1rem 1rem;
-        z-index: 3;
+        display:block;
+        position: absolute;
+        top:0;
+        padding-top: 0.5rem;
     }
     nav .topnav.responsive li {
+        float: none;
         display:block;
-        padding-right: 3rem;
-        padding-left: 1rem;
+        text-align: center;
+        width: 100vw;
+        padding: 1.3rem 0rem;
+
     }
     nav .topnav.responsive li:hover{
         background-color: rgb(255,192,72);
