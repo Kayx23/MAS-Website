@@ -1,3 +1,5 @@
+/* 255,192,72 */ /* McMaster Yellow */
+
 /* Global Style*/
 * {
     margin: 0;
@@ -27,6 +29,9 @@ h1 {
   h3 {
     font-size: 2rem;
     font-weight: normal;
+  }
+  h4,h5{
+      font-size: 1.6rem;
   }
 
 
@@ -313,5 +318,21 @@ ion-icon {
     padding-left: 7rem;
 }
 
+/* scroll to the top icon */
 
-/* 255,192,72 */ /* McMaster Yellow */
+#scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255,192,72,0.5);
+    padding:0.7rem;
+    display: none;
+}
+
+#scrolltop:hover{
+    background-color: rgb(255,192,72);
+
+}

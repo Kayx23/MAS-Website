@@ -16,6 +16,10 @@
     <!-- Navbar -->
     <script defer src="./js/navbar.js"></script>
 
+    <!-- scroll to the top rocket -->
+    <script defer src="./js/scrolltop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- Full Calendar -->
     <link rel='stylesheet' href='https://unpkg.com/@fullcalendar/core@4.3.0/main.min.css'>
     <link rel='stylesheet' href='https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.css'>
@@ -42,7 +46,7 @@
 
 <body>
     <header class="main-head">
-        <nav>
+        <nav id="top">
             <li>
                 <!-- puts img inside of <li> for alignment! -->
                 <img src="./icons/mactuaries.png" alt="MAS-logo">
@@ -157,6 +161,9 @@
     <section class="footer-maroon">
         <p>© 2020 McMaster Actuarial Society. All rights reserved.</p>
     </section>
+
+    <ion-icon name="rocket" button="true" id="scrolltop"></ion-icon>
+
 </body>
 
 </html>
