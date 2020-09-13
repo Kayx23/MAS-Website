@@ -62,6 +62,10 @@ nav ul li {
     padding: 1.3rem;
     float: left;  /* reverse back to normal */
 }
+nav ul li:hover{
+    background-color: rgb(240, 239, 239);
+    border-radius: 2rem;
+}
 nav img {
     position: absolute;
     left: 40px;
