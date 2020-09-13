@@ -235,6 +235,10 @@ nav ion-icon:hover {
     .footer-grey img{
         display: none;
     }
+    .footer-grey #address {
+        margin-left: 2rem;
+    }
+
 }
 
 ion-icon {
