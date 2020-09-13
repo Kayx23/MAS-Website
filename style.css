@@ -28,10 +28,6 @@ h1 {
     font-size: 2rem;
     font-weight: normal;
   }
-  h4,
-  h5 {
-    font-size: 1.5rem;
-  }
 
 
 /* Nav Bar */
@@ -147,6 +143,7 @@ nav ion-icon:hover {
     color: white;
     font-size: 5rem;
     text-shadow: 2px 2px 2px black;
+    text-align: center;
 }
 
 /* Who are we */
@@ -167,21 +164,20 @@ nav ion-icon:hover {
     text-align: center;
 }
 .who-are-we p {
-    text-align:justify;
+    text-align: justify;
     text-align-last: center;  /* center the last line */
     margin: 1rem 4rem;
 }
 
 /* resources */
+#resources-h2 {
+    background: rgb(240, 239, 239);
+    text-align: center;
+    padding: 2rem;
+}
 #resources {
     background: rgb(240, 239, 239);
 }
-
-#resources h2 {
-    text-align: center;
-    padding: 3rem;
-}
-
 #resources h4 {
     padding-top: 2rem;
     font-family: Arial;   /* for bolding */
@@ -205,6 +201,7 @@ nav ion-icon:hover {
     height: 80%;
     width: 90%;
     border: darkgray;
+    width: 25rem;
     text-align: center;
     flex-wrap: wrap;
     min-height: 40vh;
@@ -237,12 +234,29 @@ nav ion-icon:hover {
   }
 
 .calendar-social-media #social-media{
+    /* the width and height is set in html */
+    overflow: visible;  /* prevent the view to get cut off since it doesn't resize */
     flex:1;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 900px) {
+    .calendar-social-media {
+        display: flex;
+        flex-direction: column;
+    }
+    #calendar {
+        max-width: 95%;
+        margin: 1.5rem auto;
+        font-size: 1.5rem;
+        padding: 2%;
+        font-size: small;
+      }
+}
+
 
 /* footer grey */
 
@@ -272,6 +286,12 @@ nav ion-icon:hover {
 
 .social-media-icons {
     display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .footer-grey img{
+        display: none;
+    }
 }
 
 ion-icon {
