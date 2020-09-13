@@ -152,25 +152,24 @@ nav ion-icon:hover {
 /* Who are we */
 .who-are-we {
     background: rgb(121, 0, 60);   /* McMaster Maroon */
-    height: 38rem;
     color: white;                  /* text color */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    display: table;
+    padding: 2rem;
 }
 .who-are-we img {
     width: 18rem;
     object-fit: contain;
+    display: block;
+    margin: auto;
 }
 .who-are-we h2 {
     margin-bottom: 3%;
+    text-align: center;
 }
 .who-are-we p {
     text-align:justify;
     text-align-last: center;  /* center the last line */
+    margin: 1rem 4rem;
 }
 
 /* resources */
