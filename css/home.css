@@ -136,7 +136,7 @@ nav ion-icon:hover {
 
 /* hero */
 .hero {
-    background: url(./image/HH.jpg);
+    background: url(../image/HH.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;

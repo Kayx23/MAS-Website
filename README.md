@@ -7,6 +7,7 @@ Creating a website for the McMaster Actuarial Society (MAS)
 * Full Calendar: https://fullcalendar.io/
 * FB page plug-in: https://developers.facebook.com/docs/plugins/page-plugin/
 * Ionicons: https://ionicons.com/v4/ (4.5.10)
+* Cupcake lorem: http://www.cupcakeipsum.com
 
 # Library Version
 
