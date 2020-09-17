@@ -125,11 +125,13 @@ nav ion-icon:hover {
         display:block;
         text-align: center;
         width: 100vw;
-        padding: 1.3rem 0rem;
-
     }
     nav .topnav.responsive li:hover{
         background-color: rgb(255,192,72);
+    }
+    nav .topnav.responsive li a{
+        display: block;
+        padding: 0.05rem;
     }
   }
 
