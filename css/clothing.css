@@ -1,0 +1,241 @@
+/* 255,192,72 */ /* McMaster Yellow */
+
+/* Global Style*/
+* {
+    margin: 0;
+    padding: 0;
+    overflow: auto;       /* do not overflow */
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+  }
+  li,
+  button,
+  label,
+  input,
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  h4,h5{
+      font-size: 1.6rem;
+  }
+
+
+/* Nav Bar */
+nav {
+    height: 6rem;
+    width: 95%;     /* acts as the margin */
+    margin: auto;   /* centers it */
+    background-color: white;
+    overflow: visible;  /* for mobile look */
+}
+
+nav li {
+    list-style-type: none; /* remove bullets */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.7rem;
+    vertical-align: middle;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: right;  /* item orders in reverse */
+}
+nav ul li {
+    display: inline-block;
+    padding: 1.3rem;
+    float: left;  /* reverse back to normal */
+}
+nav ul li:hover{
+    background-color: rgb(240, 239, 239);
+    border-radius: 2rem;
+}
+nav img {
+    position: absolute;
+    left: 40px;
+    top: 14px;
+    width: 100px;
+    object-fit: contain;
+}
+nav a {
+    color: black;
+    text-decoration: none; /* gets rid of hyperlink format */
+}
+
+nav ion-icon {
+    float: right;
+    margin: 1.3rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    border-radius: 1.5rem;
+    display: none;
+}
+
+nav ion-icon:hover {
+    background-color: rgb(255,192,72);
+}
+
+  @media screen and (max-width: 650px) {
+    .topnav li {
+        display: none;
+    }
+    nav ion-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    nav {
+        width: 100%;
+        max-width: 100%
+    }
+    nav ion-icon {
+        position: absolute; /* gets rid of hyperlink format */
+        right: 0;
+        top: 0;
+        
+    }
+    nav .topnav.responsive {
+        background-color: lightgrey;
+        display:block;
+        position: absolute;
+        top:0;
+        padding-top: 0.5rem;
+    }
+    nav .topnav.responsive li {
+        float: none;
+        display:block;
+        text-align: center;
+        width: 100vw;
+        padding: 1.3rem 0rem;
+
+    }
+    nav .topnav.responsive li:hover{
+        background-color: rgb(255,192,72);
+    }
+  }
+
+.main-head {
+  background:white;
+  color: black;
+}
+
+/* hero */
+.hero {
+    background: url(../image/HH.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    align-items: center;   /* centering MAS */
+    justify-content: center;
+}
+.hero h1 {
+    color: white;
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+/* Clothing */
+
+
+
+
+
+
+/* footer grey */
+
+.footer-yellow {
+    background: rgb(255,192,72);
+    height: 1rem;
+}
+
+.footer-grey {
+    background: rgb(92, 106, 114);   /* McMaster Maroon */
+    height: 19rem;
+    color: white;                  /* text color */
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-grey img {
+    width: 40rem;
+    padding: 5rem;
+    object-fit: contain;
+}
+
+.footer-grey #address, #contact-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .footer-grey img{
+        display: none;
+    }
+    .footer-grey #address {
+        margin-left: 2rem;
+    }
+}
+
+ion-icon {
+    font-size: 2.5rem;
+    color: rgb(65, 65, 66);
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+/* footer maroon */
+.footer-maroon {
+    background: rgb(121, 0, 60);
+    height: 6rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.footer-maroon p {
+    padding-left: 7rem;
+}
+
+/* scroll to the top icon */
+
+#scrolltop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255,192,72,0.5);
+    padding:0.7rem;
+    display: none;
+}
+
+#scrolltop:hover{
+    background-color: rgb(255,192,72);
+
+}
