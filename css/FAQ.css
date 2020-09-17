@@ -208,6 +208,12 @@ nav ion-icon:hover {
     transform: rotate(45deg);
 }
 
+@media screen and (max-width: 400px) {
+    .FAQ p {
+        text-align: left;
+    } 
+}
+
 /* footer grey */
 
 .footer-yellow {
