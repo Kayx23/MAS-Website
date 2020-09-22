@@ -108,7 +108,7 @@ nav ion-icon:hover {
         max-width: 100%
     }
     nav ion-icon {
-        position: absolute; /* gets rid of hyperlink format */
+        position: absolute;
         right: 0;
         top: 0;
         
@@ -203,6 +203,7 @@ nav ion-icon:hover {
 
 #resources p {
     padding: 2rem;
+    padding-bottom: 1rem;
 }
 
 #resources .card-container {
@@ -227,6 +228,19 @@ nav ion-icon:hover {
     background:rgb(121, 0, 60);
     position: sticky;   /* don't scroll the banner */
     top:0
+}
+
+#resources a {
+    font-size: 1.6rem;
+    display: block;
+    padding-top: 0rem;
+    background-color: rgb(121, 0, 60);
+    color: white;
+    border-radius: 10rem;
+    margin: auto;
+    width: 12rem;
+    padding: 0.5rem 0rem;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {
