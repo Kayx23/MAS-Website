@@ -1,9 +1,14 @@
 # Overview
 Creating a website for the McMaster Actuarial Society (MAS)
 
-# Pinned Resources
+Status: In Progress 
 
-### Front-End
+Current Look: https://kayx23.github.io/MAS-Website/
+
+# Pinned Resources
+_---- dumpster for my learning resources ----_ 
+
+### Front-End (ish)
 * CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * CSS Media Queries: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 * Full Calendar: https://fullcalendar.io/
@@ -12,6 +17,10 @@ Creating a website for the McMaster Actuarial Society (MAS)
 * Smooth Scrolling to a section: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1
    > ```scroll-behavior: smooth;``` is not supported by Safari, IE, or Edge. Cross-browser solution involves the use of jQuery.
 * this.hash in jQuery: https://stackoverflow.com/a/32772416/7741103
+* In the browser runtime env, JS objects Window contains Document & Screen:  
+   __Window__  
+   ├── Document    (the DOM)  
+   ├── Screen      (the browser window)  
 
 ### Back-End 
 * How can JS be asynchronous and single-threaded at the same time? : https://medium.com/@samimyaquby/how-can-javascript-be-asynchronous-and-single-threaded-at-the-same-time-c13c99bb4703
