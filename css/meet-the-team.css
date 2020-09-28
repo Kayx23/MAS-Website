@@ -160,11 +160,11 @@ nav ion-icon:hover {
 /* Meet the Team */
 .meet-the-team h2{
     text-align: center;
-    padding: 3rem 0rem 1rem 0rem;
+    padding: 8rem 0rem 5rem 0rem;
 }
 
 .team-container {
-    padding: 0rem 10rem 3rem 10rem;   /* rop right bottom left */
+    padding: 0rem 16rem 6rem 16rem;   /* rop right bottom left */
     display: flex;
     flex-direction: column;
 }
@@ -179,8 +179,8 @@ nav ion-icon:hover {
 }
 
 .meet-the-team img {
-    width: 20rem;
-    height: 20rem;   /* the perfect circle */
+    width: 17rem;
+    height: 17rem;   /* the perfect circle */
     /* object-fit: contain; */  /* commented out to prevent cut-off */
     border-radius: 50%;
 }
@@ -191,19 +191,22 @@ nav ion-icon:hover {
 }
 
 .bio {
-    text-align: justify;
     margin-left: 6rem;
     padding-left: 2rem;
     border-left: rgb(121, 0, 60) 0.5rem solid;
 }
 
-@media screen and (max-width: 700px) {
+.bio p {
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1000px) {
     .team-container {
         padding: 0rem 5rem 2rem 5rem;   /* rop right bottom left */
     }
     .meet-the-team img {
-        width: 15rem;
-        height: 15rem;   /* the perfect circle */
+        width: 17rem;
+        height: 17rem;   /* the perfect circle */
         /* object-fit: contain; */  /* commented out to prevent cut-off */
         border-radius: 50%;
     }
