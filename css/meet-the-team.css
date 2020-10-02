@@ -217,15 +217,28 @@ nav ion-icon:hover {
 }
 
 @media screen and (max-width: 550px) {
+    .meet-the-team h2{
+        text-align: center;
+        padding: 4rem 0rem 2rem 0rem;
+    }
+    .pic-and-role {
+        margin-bottom: 1rem;
+    }
     .team-container {
         padding: 0rem 5rem 2rem 5rem;   /* rop right bottom left */
     }
+    .team-member {
+        flex-direction: column;
+    }
+
     .meet-the-team img {
-        width: 7rem;
-        height: 7rem;   /* the perfect circle */
-        /* object-fit: contain; */  /* commented out to prevent cut-off */
+        display: block;
+        margin: auto;
+        width: 13rem;
+        height: 13rem;   /* the perfect circle */
         border-radius: 50%;
     }
+
     .bio {
         text-align: left;  /* otherwise the word spacings are terrible */
         margin-left: 1rem;
