@@ -9,6 +9,7 @@ Current Look: https://kayx23.github.io/MAS-Website/
 _---- dumpster for my learning resources ----_ 
 
 ### Front-End (ish)
+* Valid custom HTML element name (for extending elements to build re-usable components): https://html.spec.whatwg.org/multipage/custom-elements.html#prod-potentialcustomelementname
 * CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * CSS Media Queries: https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 * Full Calendar: https://fullcalendar.io/
@@ -28,5 +29,6 @@ _---- dumpster for my learning resources ----_
    > "Django itself is synchronous. each HTTP request will be handled completely synchronously. However you have extensions like django-channels ( https://github.com/django/channels ) , which are asynchronous and are intended for web sockets / etc."
 
 ### Others
+* meta tags that Google does not use: https://support.google.com/programmable-search/answer/2595557?hl=en
 * JS ES6 let & const (over var): https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
 * A and CNAME: https://support.dnsimple.com/articles/differences-a-cname-records/
