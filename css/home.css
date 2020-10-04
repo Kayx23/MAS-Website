@@ -156,6 +156,9 @@ h1 {
     #resources .card-icon {
         height: 0.5rem;
     }
+    #resources a {
+        margin-bottom: 1rem;
+    }
 }
 
 /* events */

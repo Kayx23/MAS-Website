@@ -162,6 +162,12 @@ ion-icon {
     padding-left: 7rem;
 }
 
+@media screen and (max-width: 600px) {
+    .footer-maroon p {
+        padding-left: 2rem;
+    }
+}
+
 /* scroll to the top icon */
 
 #scrolltop {
