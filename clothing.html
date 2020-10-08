@@ -30,6 +30,9 @@
     <script src="./js/components.js"></script>
     <link rel="stylesheet" href="./css/components.css">
 
+    <!-- modal -->
+    <script defer src="./js/modal.js"></script>
+
     <!-- Social Media Icon: 4.5.10 icons are more consistent than 5.1.2 -->
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
@@ -50,9 +53,35 @@
     </section>
 
     <section class="clothing">
-        <br>
-        <p>Coming Soon!</p>
-        <br>
+        <center>
+            <p>Under Construction; Coming Soon!</p>
+        </center>
+
+        <!-- modal code credit: https://github.com/Riley-Brown/vanilla-js-modal -->
+        <!-- items -->
+        <div class="modal-content-wrapper">
+            <div class="image-modal-content">
+                <img src="./image/clothing/black-hoodie.jpg" alt="Black Hoodie">
+            </div>
+            <div class="image-modal-content">
+                <img src="./image/clothing/red-hoodie.jpg" alt="Maroon Hoodie">
+            </div>
+            <div class="image-modal-content">
+                <img src="./image/clothing/red-tee.jpg" alt="Maroon T-shirt">
+
+            </div>
+        </div>
+
+        <!-- modal popup -->
+        <div class="image-modal-popup">
+            <div class="wrapper">
+                <span>&times;</span>
+                <img src="" alt="Image Modal">
+                <div class="description">
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
