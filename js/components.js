@@ -26,6 +26,7 @@ customElements.define('nav-bar', NavBar);
 class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+        <footer>
         <section class="footer-yellow"></section>
         <section class="footer-grey">
             <img src="./image/math-stats.png" alt="Math-and-Stats-logo">
@@ -59,6 +60,7 @@ class Footer extends HTMLElement {
         <section class="footer-maroon">
             <p>© 2020 McMaster Actuarial Society. All rights reserved.</p>
         </section>
+        </footer>
         `
     }
 };
