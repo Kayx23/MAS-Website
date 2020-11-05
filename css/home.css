@@ -136,7 +136,7 @@ h1 {
     text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
     #resources h4 {
         padding-top: 1rem;
     }
