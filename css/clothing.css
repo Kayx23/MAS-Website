@@ -63,7 +63,7 @@ h1 {
   margin: auto;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 70px 0;
+  padding: 40px 0 10px 0;
 }
 .modal-content-wrapper .image-modal-content {
   flex: 0 0 30%;
@@ -169,8 +169,14 @@ h1 {
   border-radius: 6px;
 }
 
+.clothing h2{
+  text-align: center;
+  margin-top: 5rem;
+}
 
-
+#note {
+  margin-left: 5rem;
+}
 
 
 
