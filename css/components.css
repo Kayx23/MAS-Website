@@ -180,6 +180,7 @@ ion-icon {
     background-color: rgb(255,192,72,0.5);
     padding:0.7rem;
     display: none;
+    z-index: 100;
 }
 
 #scrolltop:hover{
