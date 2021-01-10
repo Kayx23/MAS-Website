@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- update the meta description -->
+    <meta name="description" content="McMaster Actuarial Society is the actuarial society at Mac">
+    <meta name="robots" content="index,follow">
+
+    <!-- thumbnail -->
+    <link rel="icon" href="./icons/MAS-icon.png">
+
+    <!-- custome CSS -->
+    <link rel="stylesheet" href="./css/meet-the-team.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- custom -->
+    <script defer src="./js/navbar.js"></script>
+    <script defer src="./js/scrolltop.js"></script>
+    <script defer src="./js/progressBar.js"></script>
+    <script defer src="./js/components.js"></script>
+    <link rel="stylesheet" href="./css/components.css">
+    <script defer src="./js/progressBar.js"></script>
+
+    <!-- Social Media Icon: 4.5.10 icons are more consistent than 5.1.2 -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+    <title>MAS | Meet the Team </title>
+
+</head>
+
+<body>
+    <div id="progressbar"></div>
+
+    <header class="main-head">
+        <nav-bar></nav-bar>
+    </header>
+
+    <section class="hero">
+        <header>
+            <h1>McMaster Actuarial Society</h1>
+        </header>
+    </section>
+
+    <section class="meet-the-team">
+        <h2>Meet Our Team</h2>
+        <div class="team-container">
+
+            {% for person in people.values(): %}
+            <div class="team-member">
+                <div class="pic-and-role">
+                    <img src="{{person['photo']}}" alt="profile-picture">
+                    <p><strong>{{person['name']}}</strong></p>
+                    <p>{{person['role']}}</p>
+                </div>
+                <div class="bio">
+                    <p>{{person['bio']}}</p>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </section>
+
+    <footer-bundle></footer-bundle>
+
+    <ion-icon name="rocket" button="true" id="scrolltop"></ion-icon>
+
+</body>
+
+</html>
