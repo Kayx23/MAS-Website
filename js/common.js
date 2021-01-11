@@ -5,7 +5,7 @@ class NavBar extends HTMLElement {
         <nav id="top">
         <li>
             <!-- puts img inside of <li> for alignment! -->
-            <img src="./icons/mactuaries.png" alt="MAS-logo">
+            <a href="/"><img src="./icons/mactuaries.png" alt="MAS-logo"></a>
         </li>
         <ul id="main-list">
             <li><a href="./index.html">Home</a></li>
