@@ -58,7 +58,7 @@ class Footer extends HTMLElement {
         </section>
     
         <section class="footer-maroon">
-            <p>© 2020 McMaster Actuarial Society. All rights reserved.</p>
+            <p>© 2021 McMaster Actuarial Society. All rights reserved.</p>
         </section>
         </footer>
         `
