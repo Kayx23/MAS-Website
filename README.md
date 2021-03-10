@@ -1,10 +1,5 @@
 # MAS Website
-Website for the McMaster Actuarial Society (MAS)       
-
-GH page: https://kayx23.github.io/MAS-Website/
-
-### Project Status
-Active
+website for the school club
 
 ### Acknowledgments
 * [Top progress bar](https://codepen.io/Codepalm/pen/oNXqWRV)
