@@ -56,7 +56,7 @@ h1 {
     background: rgb(121, 0, 60);   /* McMaster Maroon */
     color: white;                  /* text color */
     display: table;
-    padding: 2rem;
+    padding: 4rem 2.7rem;
 }
 .who-are-we img {
     width: 18rem;
@@ -72,6 +72,7 @@ h1 {
     text-align: justify;
     text-align-last: center;  /* center the last line */
     margin: 1rem 4rem;
+    line-height: 1.8;
 }
 @media screen and (max-width: 400px) {
     .who-are-we p {
