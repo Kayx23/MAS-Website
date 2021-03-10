@@ -60,8 +60,42 @@ document.addEventListener('DOMContentLoaded', function () {
       },
       {
         title: 'Desjardins Virtual Networking',
-        start: '2022-02-18T14:00:00',
+        start: '2021-02-18T14:00:00',
         url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=pSCNckQL3UeUcCDzfL8tmkStfBZuMkdMinHZkr0ksWNUNlBZVjZZOFFRQ01MWllYTE5UQU9JNFFJOS4u&fbclid=IwAR1EnYkN06_JaiiEJ3HMLNRRokNYanOKz8W4WfthKKs7MoYqJqcTQIbGNzg'
+      },
+      {
+        title: 'McMaster & Co-operators Problem Solving e-Workshop Registration opens',
+        start: '2021-02-05',
+        url: 'https://www.actulab.ca/McMaster-e-piscine.php?fbclid=IwAR2rMy6_mJJGJGcGjE5kWuJRbtBioSWQrpW9CN9w67f3Slin1Gg2Il_Dt9o'
+      },
+      {
+        title: 'RSM Canada Winter Networking',
+        start: '2021-02-04T14:00:00',
+        url: 'https://app.smartsheet.com/b/form/7a0dd47081364458afb5c1f447d62ae8?fbclid=IwAR2IcqfMgryibuxdn5yMo5QljEQwgMXHV1aRf1IlPkX1O2xkGPcfd-bSdsY'
+      },
+      {
+        title: 'RSM Canada Winter Networking',
+        start: '2021-01-17T17:00:00',
+        url: 'https://www.facebook.com/events/325739288699467/?acontext=%7B%22feed_story_type%22%3A%2222%22%2C%22action_history%22%3A%22null%22%7D&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjE1NDAyODA2LCJjYWxsc2l0ZV9pZCI6MzU5MDM2MDAxOTY4NDMyfQ%3D%3D'
+      },
+      {
+        title: 'ANÉA-ASNA 2021',
+        start: '2021-01-15',
+        end: '2021-01-17',
+        url: 'https://anea-asna.ca/registration/?fbclid=IwAR2fhiqdWshtqR0kXJdu-idaurNYpEhaAhytSEk3EPTpeTaHvaQ59PzuYZ8'
+      },
+      {
+        title: 'Insurance Institute: Career Connections X TalentEgg Case Competition',
+        start: '2020-11-27T14:00:00'
+      },
+      {
+        title: 'Career in Insurance Coffee Chat',
+        start: '2020-11-24'
+      },
+      {
+        title: 'Emerging Risks in Business',
+        start: '2020-11-17',
+        url: 'https://www.eventbrite.com/e/emerging-risks-in-business-perspectives-from-the-insurance-industry-tickets-127477052295'
       }
     ],
     eventColor: 'rgb(121, 0, 60)'  /* change colour of all events */
