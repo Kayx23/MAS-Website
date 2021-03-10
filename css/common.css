@@ -28,7 +28,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 1.3rem;
-    float: left;  /* reverse back to normal */
 }
 nav ul li:hover{
     background-color: rgb(240, 239, 239);
@@ -93,6 +92,8 @@ nav ion-icon:hover {
         display:block;
         text-align: center;
         width: 100vw;
+        padding-right: 0;  /* prevent menu overflow */
+        padding-left: 0;   /* prevent menu overflow */
     }
     nav .topnav.responsive li:hover{
         background-color: rgb(255,192,72);
