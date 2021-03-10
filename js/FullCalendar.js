@@ -57,6 +57,11 @@ document.addEventListener('DOMContentLoaded', function () {
       {
         title: 'Intact Panel',
         start: '2020-09-29T16:00:00'
+      },
+      {
+        title: 'Desjardins Virtual Networking',
+        start: '2022-02-18T14:00:00',
+        url: 'https://forms.office.com/Pages/ResponsePage.aspx?id=pSCNckQL3UeUcCDzfL8tmkStfBZuMkdMinHZkr0ksWNUNlBZVjZZOFFRQ01MWllYTE5UQU9JNFFJOS4u&fbclid=IwAR1EnYkN06_JaiiEJ3HMLNRRokNYanOKz8W4WfthKKs7MoYqJqcTQIbGNzg'
       }
     ],
     eventColor: 'rgb(121, 0, 60)'  /* change colour of all events */
