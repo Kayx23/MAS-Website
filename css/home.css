@@ -84,7 +84,7 @@ h1 {
 #resources-h2 {
     background: rgb(240, 239, 239);
     text-align: center;
-    padding: 2rem;
+    padding: 4rem 2rem 2rem 2rem;
 }
 #resources {
     background: rgb(240, 239, 239);
@@ -102,13 +102,13 @@ h1 {
 
 #resources .card-container {
     margin: auto;
-    height: 50vh;
+    height: 52vh;
     display: flex;
     justify-content: space-evenly;
 }
 
 #resources .card {
-    height: 80%;
+    height: 82%;
     border: darkgray;
     width: 25rem;
     text-align: center;
