@@ -81,33 +81,33 @@ h1 {
 }
 
 /* resources */
-#resources-h2 {
+#resources {
     background: rgb(240, 239, 239);
     text-align: center;
     padding: 4rem 2rem 2rem 2rem;
 }
-#resources {
+#resources-section {
     background: rgb(240, 239, 239);
 }
-#resources h4 {
+#resources-section h4 {
     padding-top: 2rem;
     font-family: Arial;   /* for bolding */
     font-size: 1.6rem;
 }
 
-#resources p {
+#resources-section p {
     padding: 2rem;
     padding-bottom: 1rem;
 }
 
-#resources .card-container {
+#resources-section .card-container {
     margin: auto;
     height: 52vh;
     display: flex;
     justify-content: space-evenly;
 }
 
-#resources .card {
+#resources-section .card {
     height: 82%;
     border: darkgray;
     width: 25rem;
@@ -117,14 +117,14 @@ h1 {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
-#resources .card-icon {
+#resources-section .card-icon {
     height: 13%;
     background:rgb(121, 0, 60);
     position: sticky;   /* don't scroll the banner */
     top:0
 }
 
-#resources a {
+#resources-section a {
     font-size: 1.6rem;
     display: block;
     padding-top: 0rem;
@@ -138,26 +138,26 @@ h1 {
 }
 
 @media screen and (max-width: 1050px) {
-    #resources h4 {
+    #resources-section h4 {
         padding-top: 1rem;
     }
-    #resources p {
+    #resources-section p {
         padding: 0.5rem;
     }
-    #resources .card-container {
+    #resources-section .card-container {
         display: list-item;
         height: max-content;  /* adjust for content */
         padding-bottom: 2rem;
     }
-    #resources .card {
+    #resources-section .card {
         margin: auto;
         width: 95%;
         height: min-content;
     }
-    #resources .card-icon {
+    #resources-section .card-icon {
         height: 0.5rem;
     }
-    #resources a {
+    #resources-section a {
         margin-bottom: 1rem;
     }
 }
