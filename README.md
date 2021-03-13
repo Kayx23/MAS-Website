@@ -1,5 +1,5 @@
 # MAS Website
-website for the school club
+Website for the school club
 
 ### Acknowledgments
 * [Top progress bar](https://codepen.io/Codepalm/pen/oNXqWRV)
