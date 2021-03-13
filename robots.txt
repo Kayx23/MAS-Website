@@ -1,3 +1,3 @@
 User-Agent: * 
-Disallow: /clothing.html 
-Disallow: /FAQ.html
+Disallow: /template/
+Disallow: /ssg/
