@@ -1,0 +1,3 @@
+User-Agent: * 
+Disallow: /clothing.html 
+Disallow: /FAQ.html
